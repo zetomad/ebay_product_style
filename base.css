@@ -1,6 +1,7 @@
 @CHARSET "UTF-8";
 
-#it--header , #it--footer {
+#it--header,
+#it--footer {
 	position: relative;
 }
 .it--wrapper,
@@ -13,6 +14,7 @@
 	min-width: 960px;
 	max-width: 1280px;
 }
+
 .it-clearfix {
 	clear: both;
 	overflow: hidden;
@@ -21,11 +23,13 @@
 	background-repeat: no-repeat;
 	display: block;
 }
+
 .it--banner {
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
+
 #it--content {
 	width: 100%;
 	overflow: hidden;
@@ -40,31 +44,48 @@
 	float: right;
 	width: 40%;
 }
+
 @media only screen and (max-width:480px) {
 	.it--wrapper {
 		padding: 0;
 	}
+
+
 	.it--logo {
 		background-position: center 0;
 		width: 100%;
 	}
-	#it--content .left , #it--content .right {
+	#it--content .left,
+	#it--content .right {
 		float: none;
 		width: auto;
 	}
 }
+
 .stBadge-accent,
-td#CentralArea div.v4stabl , td#CentralArea span.pdmt:first-child ,.r3_t , .r3_t b , .r3_bl , .r3_bl b ,
-.cmpBr , span.pdmt img , span.pdmt .label , .itemseparator , .mi {
+td#CentralArea div.v4stabl,
+td#CentralArea span.pdmt:first-child,
+.r3_t, .r3_t b, .r3_bl, .r3_bl b,
+.cmpBr,
+span.pdmt img,
+span.pdmt .label,
+.itemseparator,
+.mi {
     display: none;
 }
+
 table.v4clp li {
 	padding-top: 0;
 }
+
 table.pgbc {
 	border: none;
 	background: none;
 }
-table.pgbc , td#CentralArea div.dynpg , .r3_cm , .rs-pview {
+
+table.pgbc,
+td#CentralArea div.dynpg,
+.r3_cm,
+.rs-pview {
 	padding: 0;
 }
