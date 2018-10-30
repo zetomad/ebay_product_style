@@ -42,7 +42,7 @@
 }
 @media only screen and (max-width:480px) {
 	.it--wrapper {
-		padding: 0 !important;
+		padding: 0;
 	}
 	.it--logo {
 		background-position: center 0;
@@ -66,5 +66,5 @@ table.pgbc {
 	background: none;
 }
 table.pgbc , td#CentralArea div.dynpg , .r3_cm , .rs-pview {
-	padding: 0 !important;
+	padding: 0;
 }
