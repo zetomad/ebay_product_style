@@ -14,7 +14,6 @@
 	min-width: 960px;
 	max-width: 1280px;
 }
-
 .it-clearfix {
 	clear: both;
 	overflow: hidden;
@@ -23,38 +22,36 @@
 	background-repeat: no-repeat;
 	display: block;
 }
-
-.it--banner {
-	width: 100%;
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-}
-
 #it--content {
 	width: 100%;
 	overflow: hidden;
 }
+#it--content .categories {
+	float: left;
+	width: 210px;
+	min-width: 210px;
+	padding-right: 15px;
+	vertical-align: top;
+}
 #it--content .left {
 	float: left;
-	width: 50%;
-	margin-right: 5%;
-	margin-left: 5%;
+	width: 45%;
+	margin-right: 2%;
 }
 #it--content .right {
 	float: right;
-	width: 40%;
+	width: 35%;
 }
 
 @media only screen and (max-width:480px) {
 	.it--wrapper {
-		padding: 0;
+		padding: 0 !important;
 	}
-
-
 	.it--logo {
 		background-position: center 0;
 		width: 100%;
 	}
+	#it--content .categories,
 	#it--content .left,
 	#it--content .right {
 		float: none;
@@ -87,5 +84,5 @@ table.pgbc,
 td#CentralArea div.dynpg,
 .r3_cm,
 .rs-pview {
-	padding: 0;
+	padding: 0 !important;
 }
